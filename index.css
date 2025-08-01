@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    text-align: center;
+    /* display: block; */
+}
+
+.hero {
+    background-image: url(./images/gqeberha.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #140f0fbd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.hero:hover {
+    background-image: url(./images/PortElizabeth.jpg.jpg);
+}
+
+.font_h1 {
+    font-family: "Orbitron", sans-serif;
+    background-color: #D1E8E2;
+    margin: 180px 0 10px 0;
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.font {
+    font-size: 15px;
+    font-weight: bold;
+    width: 500px;
+    border-radius: 10px;
+    padding: 8px 13px;
+    background-color: #19747E;
+    color: #ffffff34;
+    text-shadow: 0px 0px 1px white;
+}
+
+#activities {
+    text-align: center;
+    background-color: #42745c56;
+    padding: 10px 0 35px 0;
+}
+
+.activ {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#guide {
+    width: 400px;
+    margin: 30px auto 0;
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: #e9e8e8;
+    border-radius: 10px;
+    border-bottom: #e9e8e8;
+}
+
+img {
+    width: 100px;
+}
+
+.pics img {
+    border-radius: 50px;
+    height: 99px;
+}
